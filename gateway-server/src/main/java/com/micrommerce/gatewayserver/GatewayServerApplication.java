@@ -1,17 +1,15 @@
-package com.clientui.clientui;
+package com.micrommerce.gatewayserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients("com.clientui")
 @EnableDiscoveryClient
-public class ClientUiApplication {
+public class GatewayServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClientUiApplication.class, args);
+		SpringApplication.run(GatewayServerApplication.class, args);
 	}
 
 }
