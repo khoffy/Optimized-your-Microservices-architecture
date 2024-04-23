@@ -8,5 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/khoffy/mcommerce-config-repo.git
-server:
+server: # every Edge Microservice port is going to start with 91
   port: 9101
+
+
+

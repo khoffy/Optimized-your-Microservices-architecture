@@ -3,4 +3,12 @@ spring:
     name: microservice-clientui
   cloud:
     config:
-      uri: http://localhost:9101
+      uri: http://localhost:9101 # config-server ip address:port
+
+
+
+
+      
+
+
+

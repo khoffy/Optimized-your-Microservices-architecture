@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GatewayServerApplication",
+            "request": "launch",
+            "mainClass": "com.micrommerce.gatewayserver.GatewayServerApplication",
+            "projectName": "com.micrommerce-gateway-server"
+        },
+        {
+            "type": "java",
+            "name": "ClientUiApplication",
+            "request": "launch",
+            "mainClass": "com.clientui.clientui.ClientUiApplication",
+            "projectName": "com.clientui-client-ui"
+        },
+        {
+            "type": "java",
+            "name": "ZuulServerApplication",
+            "request": "launch",
+            "mainClass": "com.micrommerce.zuulserver.ZuulServerApplication",
+            "projectName": "com.micrommerce-zuul-server"
+        },
+        {
+            "type": "java",
+            "name": "MpaiementApplication",
+            "request": "launch",
+            "mainClass": "com.mpaiement.MpaiementApplication",
+            "projectName": "com.mpaiement-mpaiement"
+        },
+        {
+            "type": "java",
+            "name": "McommandesApplication",
+            "request": "launch",
+            "mainClass": "com.mcommandes.McommandesApplication",
+            "projectName": "com.mcommandes-mcommandes"
+        },
+        {
+            "type": "java",
+            "name": "EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.meureuka.eurekaserver.EurekaServerApplication",
+            "projectName": "com.meureuka-eureka-server"
+        },
+        {
+            "type": "java",
+            "name": "MproduitsApplication",
+            "request": "launch",
+            "mainClass": "com.mproduits.MproduitsApplication",
+            "projectName": "mproduits"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<com.mcommerce-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mcommerce.configserver.ConfigServerApplication",
+            "projectName": "com.mcommerce-config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

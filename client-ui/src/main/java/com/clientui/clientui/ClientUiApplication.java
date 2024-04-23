@@ -7,11 +7,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients("com.clientui")
-@EnableDiscoveryClient
+@EnableDiscoveryClient                  
 public class ClientUiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ClientUiApplication.class, args);
 	}
-
 }

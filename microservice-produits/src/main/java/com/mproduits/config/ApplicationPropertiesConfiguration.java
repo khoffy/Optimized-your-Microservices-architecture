@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties("own-config")
-@RefreshScope
+@RefreshScope                    
 public class ApplicationPropertiesConfiguration {
     private int limitDeProduits;
 
@@ -16,7 +16,6 @@ public class ApplicationPropertiesConfiguration {
 
     public void setLimitDeProduits(int limitDeProduits) {
         this.limitDeProduits = limitDeProduits;
-    }
-
-    
+    }    
 }
+

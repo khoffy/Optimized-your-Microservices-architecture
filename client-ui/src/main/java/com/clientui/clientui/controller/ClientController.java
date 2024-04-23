@@ -33,8 +33,5 @@ public class ClientController {
     @Autowired
     public void setProduitsProxy(MicroserviceProduitsProxy produitsProxy) {
         this.produitsProxy = produitsProxy;
-    }
-
-    
-    
+    }    
 }

@@ -36,3 +36,4 @@ public class LogFilter extends ZuulFilter {
         return null;
     }
 }
+
