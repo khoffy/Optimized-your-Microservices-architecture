@@ -1,4 +1,4 @@
-package com.micrommerce.filters;
+package com.micrommerce.zuulserver.filters;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
